@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="pers.zuzi.demo.dao.ArticleMapper">
+  <resultMap id="BaseResultMap" type="pers.zuzi.demo.domain.Article">
+    <!--
+      WARNING - @mbg.generated //FIXME 这只是一个demo 记得删掉重写自己的mapper哦
+    -->
+    <id column="article_id" jdbcType="INTEGER" property="articleId" />
+    <result column="article_tag" jdbcType="VARCHAR" property="articleTag" />
+    <result column="article_title" jdbcType="VARCHAR" property="articleTitle" />
+    <result column="article_author" jdbcType="VARCHAR" property="articleAuthor" />
+    <result column="article_title_pic_url" jdbcType="VARCHAR" property="articleTitlePicUrl" />
+    <result column="article_create_time" jdbcType="TIMESTAMP" property="articleCreateTime" />
+    <result column="article_last_update_time" jdbcType="TIMESTAMP" property="articleLastUpdateTime" />
+    <result column="article_content" jdbcType="LONGVARCHAR" property="articleContent" />
+  </resultMap>
+</mapper>
